@@ -1,0 +1,16 @@
+.header__links {
+  display: flex;
+  position: absolute;
+  top: 48px;
+  right: 48px;
+  width: calc(28px + 28px + 18px);
+  justify-content: space-between;
+}
+
+@media screen and (max-width: 1024px){
+  .header__links {
+
+    right: 24px;
+
+  }
+}

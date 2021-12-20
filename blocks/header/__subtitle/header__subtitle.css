@@ -1,0 +1,16 @@
+@import url(../../../fonts/Inter/inter.css);
+.header__subtitle{
+  padding-top: 32px;
+  max-width: 640px;
+  max-height: 72px;
+  margin: 0 auto;
+  font-family: Inter;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 30px;
+  line-height: 36px;
+  color: #FFF;
+  /* or 120% */
+
+  text-align: center
+}
