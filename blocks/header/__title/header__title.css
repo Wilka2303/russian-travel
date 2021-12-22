@@ -12,3 +12,29 @@
   font-size: 96px;
   line-height: 100px;
 }
+
+@media screen and (max-width: 1024px){
+  .header__title {
+  font-family: Inter;
+  font-style: normal;
+  font-weight: 900;
+  font-size: 96px;
+  line-height: 100px;
+  /* or 104% */
+  text-align: center;
+  }
+}
+
+@media screen and (max-width: 768px){
+  .header__title {
+  font-family: Inter;
+  font-style: normal;
+  font-weight: 900;
+  font-size: 40px;
+  line-height: 44px;
+  width: 288px;
+  height: 88px;
+  /* or 110% */
+  text-align: center;
+  }
+}
