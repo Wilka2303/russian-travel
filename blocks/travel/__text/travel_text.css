@@ -1,0 +1,7 @@
+.travel__text{
+  position: relative;
+  color: #FFF;
+  margin: 0 auto;
+  max-width: 784px;
+  left: calc((984 - 690)/(984*690) * 100%);
+}

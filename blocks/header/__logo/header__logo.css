@@ -1,7 +1,7 @@
 .header__logo{
   min-width: 176px;
   min-height: 52px;
-  width: 100%;
+  background-size: contain;
   position: absolute;
   top: 28px;
   left: 46px;
