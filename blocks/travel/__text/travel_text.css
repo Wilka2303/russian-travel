@@ -1,7 +1,27 @@
+@import url(../../../fonts/Inter/inter.css);
 .travel__text{
-  position: relative;
   color: #FFF;
-  margin: 0 auto;
+  margin: 0;
   max-width: 784px;
-  left: calc((984 - 690)/(984*690) * 100%);
+  left: auto;
+  font-family: Inter;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 163%;
+  }
+
+  @media (max-width: 1023px)
+{.travel__text{
+  max-width: 93.75%;
+  margin: 0 auto;
 }
+}
+  @media (max-width: 767px)
+{.travel__text{
+  max-width: 90%;
+}
+
+}
+
+

@@ -2,11 +2,10 @@
   display: block;
   max-width: 984px;
   max-height: 615px;
-  margin: 0 auto;
   object-fit: contain;
 }
 
-@media screen and (max-width: 1280px)
+@media screen and (max-width: 1279px)
 {
   .travel__picture{
     max-width: 928px;
@@ -14,7 +13,7 @@
 
 }
 
-@media screen and (max-width: 1024px)
+@media screen and (max-width: 1023px)
 {
   .travel__picture{
     max-width: 100%;
