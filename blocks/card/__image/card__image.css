@@ -1,0 +1,16 @@
+.card__image{
+  display: inline-block;
+  width: 47.2%;
+  padding-right: 3.125%;
+  margin: 0 auto;
+}
+
+@media screen and (max-width: 767px) {
+  .card__image{
+    display: block;
+    width: 100%;
+    padding-right: 0;
+    padding-bottom: 32px;
+    padding-top: 32px;
+  }
+}

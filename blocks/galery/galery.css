@@ -1,16 +1,17 @@
 .galery{
-  max-width: 93%;
+  max-width: 1184px;
   margin: 0 auto;
   display: grid;
   grid-template-columns: repeat(auto-fill, 284px);
   gap: 16px;
   justify-content: center;
   padding-top: 92px;
+  padding-bottom: 92px;
 }
 
 @media (max-width: 1279px)
 {.galery{
-  max-width: 91%;
+  max-width: 928px;
   grid-template-columns: repeat(auto-fill, 300px);
   gap: 14px;
   padding-top: 92px;
@@ -22,13 +23,16 @@
   max-width: 93.75%;
   grid-template-columns: repeat(auto-fill, 352px);
   padding-top:88px;
+  padding-bottom:88px;
 }
 }
 
   @media (max-width: 767px)
 {.galery{
-  max-width: 91%;
-  grid-template-columns: repeat(auto-fill, 288px);
+  max-width: 90%;
+/*  grid-template-columns: repeat(auto-fill, 288px);*/
   padding-top: 64px;
+  padding-bottom:64px;
+  grid-template-columns: none
 }
 }
