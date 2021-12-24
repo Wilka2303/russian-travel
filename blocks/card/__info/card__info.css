@@ -1,12 +1,12 @@
 .card__info{
   display: inline-block;
-  max-width: 46.3%;
+  width: 46.3%;
 }
 
 
 @media screen and (max-width: 767px) {
   .card__info{
-    max-width: 90%;
+    width: 90%;
     display: block;
     margin: 0 auto;
   }
