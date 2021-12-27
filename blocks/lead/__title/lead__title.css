@@ -1,0 +1,40 @@
+@import url(../../../fonts/Inter/inter.css);
+.lead__title{
+  width: 720px;
+  height: 200px;
+  padding-top: 136px;
+  color: white;
+  margin: 0 auto;
+  text-align: center;
+  font-family: Inter;
+  font-style: normal;
+  font-weight: 900;
+  font-size: 96px;
+  line-height: 100px;
+}
+
+@media screen and (max-width: 1024px){
+  .lead__title {
+  font-family: Inter;
+  font-style: normal;
+  font-weight: 900;
+  font-size: 96px;
+  line-height: 100px;
+  /* or 104% */
+  text-align: center;
+  }
+}
+
+@media screen and (max-width: 768px){
+  .lead__title {
+  font-family: Inter;
+  font-style: normal;
+  font-weight: 900;
+  font-size: 40px;
+  line-height: 44px;
+  width: 288px;
+  height: 88px;
+  /* or 110% */
+  text-align: center;
+  }
+}

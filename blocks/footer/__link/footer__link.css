@@ -1,0 +1,30 @@
+@import url(../../../fonts/Inter/Inter-Regular.woff);
+.footer__link{
+  color: #FFF;
+  padding-right: 18px;
+  font-family: Inter;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 18px;
+}
+
+@media screen and (max-width: 767px) {
+  .footer__link{
+  display: block;
+  padding-right: 0;
+  font-family: Inter;
+font-style: normal;
+font-weight: normal;
+font-size: 24px;
+line-height: 24px;
+padding-bottom: 32px;
+/* identical to box height, or 100% */
+}
+
+  .footer__link:last-of-type{
+    padding-bottom: 48px;
+  }
+}
+
+

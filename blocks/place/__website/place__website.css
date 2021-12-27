@@ -1,0 +1,13 @@
+.place__info{
+  display: inline-block;
+  width: 46.3%;
+}
+
+
+@media screen and (max-width: 767px) {
+  .place__info{
+    width: 90%;
+    display: block;
+    margin: 0 auto;
+  }
+}

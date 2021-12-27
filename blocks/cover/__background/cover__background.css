@@ -1,0 +1,26 @@
+.cover__background{
+  min-height: 740px;
+  background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(../../../images/cover-trains.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  text-decoration: none;
+
+}
+
+@media screen and (max-width: 1267px) {
+  .cover__background{
+  min-height: 640px;
+  width: 100%;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .cover__background{
+    min-height: auto;
+    height: 200px;
+  }
+}
