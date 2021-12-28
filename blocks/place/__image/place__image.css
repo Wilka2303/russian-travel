@@ -1,4 +1,4 @@
-.place__image{
+.place__image {
   display: inline-block;
   width: 47.2%;
   padding-right: 3.125%;
@@ -6,7 +6,7 @@
 }
 
 @media screen and (max-width: 767px) {
-  .place__image{
+  .place__image {
     display: block;
     width: 100%;
     padding-right: 0;

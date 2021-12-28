@@ -1,4 +1,5 @@
-.place__url-heading{
+@import url(../../../fonts/Inter/Inter-Regular.woff);
+.place__url-heading {
   margin: 0;
   font-family: Inter;
   font-style: normal;

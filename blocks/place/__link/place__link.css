@@ -1,4 +1,5 @@
-.place__link{
+@import url(../../../fonts/Inter/Inter-Regular.woff);
+.place__link {
   font-family: Inter;
   font-style: normal;
   font-weight: normal;
@@ -7,6 +8,10 @@
   /* identical to box height, or 122% */
 
   text-decoration-line: underline;
-
+  transition: opacity ease-in-out 2s;
   color: #FFFFFF;
+}
+
+.place__link:hover{
+  opacity: 0.75;
 }

@@ -1,5 +1,5 @@
 @import url(../../../fonts/Inter/inter.css);
-.intro__text{
+.intro__text {
   color: #FFF;
   margin: 0;
   max-width: 690px;
@@ -11,17 +11,16 @@
   line-height: 163%;
   }
 
-  @media (max-width: 1023px)
-{.intro__text{
+  @media (max-width: 1023px) {
+    .intro__text {
   max-width: 93.75%;
   margin: 0 auto;
 }
 }
-  @media (max-width: 767px)
-{.intro__text{
+  @media (max-width: 767px) {
+    .intro__text {
   max-width: 90%;
 }
-
 }
 
 

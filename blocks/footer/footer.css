@@ -1,4 +1,4 @@
-.footer{
+.footer {
   margin: 0 auto;
   max-width: 1184px;
   display: flex;
@@ -6,25 +6,22 @@
   padding-bottom: 24px;
 }
 
-@media screen and (max-width: 1279px){
-  .footer
-  {
-   max-width: 928px;
+@media screen and (max-width: 1279px) {
+  .footer {
+    max-width: 928px;
   }
   }
-@media screen and (max-width: 1023px){
-  .footer
-  {
-   max-width: 93.75%;
+@media screen and (max-width: 1023px) {
+  .footer {
+    max-width: 93.75%;
   }
   }
 
 
 
-@media screen and (max-width: 767px){
-  .footer
-  {
+@media screen and (max-width: 767px) {
+  .footer {
     width: 90%;
-  display: block;
+    display: block;
   }
   }
