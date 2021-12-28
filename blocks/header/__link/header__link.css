@@ -1,4 +1,4 @@
-@import url(../../../fonts/Inter/inter.css);
+@import url(../../../fonts/Inter/Inter-Regular.woff);
 .header__link {
   width: 30px;
   height: 28px;
@@ -9,7 +9,10 @@
   line-height: 28px;
   /* identical to box height, or 117% */
   text-align: right;
-  text-decoration-line: underline;
   color: #FFFFFF;
+}
+
+.header__link:hover {
+  text-decoration: underline;
 }
 

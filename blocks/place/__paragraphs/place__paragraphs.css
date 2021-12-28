@@ -1,0 +1,13 @@
+.place__paragraphs {
+  display: inline-block;
+  width: 49%;
+  vertical-align: top;
+}
+
+@media screen and (max-width: 767px) {
+  .place__paragraphs {
+  display: block;
+  width: 90%;
+  margin: 0 auto;
+  }
+}

@@ -1,0 +1,28 @@
+@import url(../../../fonts/Inter/Inter-ExtraBold.woff);
+.cover__title {
+  font-family: Inter;
+  font-style: normal;
+  font-weight: 900;
+  font-size: 72px;
+  line-height: 76px;
+  /* or 106% */
+color: #FFF;
+  text-align: center;
+max-width: 560px;
+margin: 0;
+padding-bottom: 32px;
+}
+
+
+@media screen and (max-width: 767px) {
+  .cover__title{
+  font-family: Inter;
+  font-style: normal;
+  font-weight: 900;
+  font-size: 32px;
+  line-height: 35px;
+/* or 109% */
+  text-align: center;
+  max-width: 288px;
+  }
+}

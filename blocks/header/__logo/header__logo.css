@@ -1,7 +1,7 @@
-.header__logo{
+.header__logo {
   min-width: 176px;
   min-height: 52px;
-  width: 100%;
+  background-size: contain;
   position: absolute;
   top: 28px;
   left: 46px;
@@ -9,13 +9,13 @@
   background-repeat: no-repeat;
 }
 
-@media screen and (max-width: 1024px) and (min-width: 768px){
+@media screen and (max-width: 1023px) {
   .header__logo {
     left: 24px;
 }
 }
 
-@media (max-width: 767px){
+@media (max-width: 767px) {
   .header__logo {
     left: 16px;
     right: 16px;
