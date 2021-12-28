@@ -1,4 +1,8 @@
-@import url(../../../fonts/Inter/Inter-ExtraBold.woff);
+@font-face {
+  font-family: Inter;
+  src: url(../../../fonts/Inter/Inter-Black.woff), format(woff);
+  font-weight: 900;
+}
 .lead__title {
   width: 720px;
   height: 200px;

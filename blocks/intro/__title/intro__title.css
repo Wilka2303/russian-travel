@@ -1,4 +1,8 @@
-@import url(../../../fonts/Inter/inter.css);
+@font-face {
+  font-family: Inter;
+  src: url(../../../fonts/Inter/Inter-Black.woff) format('woff');
+  font-weight: 900;
+}
 .intro__title{
 font-family: Inter;
 font-style: normal;
