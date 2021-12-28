@@ -33,6 +33,6 @@
 /*  grid-template-columns: repeat(auto-fill, 288px);*/
   padding-top: 64px;
   padding-bottom:64px;
-  grid-template-columns: none
+  grid-template-columns: none;
 }
 }
