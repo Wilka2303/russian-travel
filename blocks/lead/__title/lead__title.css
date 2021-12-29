@@ -2,6 +2,8 @@
   font-family: Inter;
   src: url(../../../fonts/Inter/Inter-Black.woff), format(woff);
   font-weight: 900;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
 }
 .lead__title {
   width: 720px;

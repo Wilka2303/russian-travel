@@ -1,7 +1,7 @@
 @font-face {
   font-family: Inter;
   src: url(../../../fonts/Inter/Inter-Regular.woff) format('woff');
-  font-weight: 900;
+  font-weight: 400;
 }
 .intro__text {
   color: #FFF;
