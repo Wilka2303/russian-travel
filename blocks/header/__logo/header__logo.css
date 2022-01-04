@@ -2,9 +2,7 @@
   min-width: 176px;
   min-height: 52px;
   background-size: contain;
-  position: absolute;
-  top: 28px;
-  left: 46px;
+  display: inline-block;
   background-image: url(../../../images/header-logo.svg);
   background-repeat: no-repeat;
 }
@@ -17,6 +15,8 @@
 
 @media (max-width: 767px) {
   .header__logo {
+    min-width: 142px;
+    min-height: 42p;
     left: 16px;
     right: 16px;
     max-width: 142px;

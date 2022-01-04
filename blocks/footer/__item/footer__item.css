@@ -1,0 +1,19 @@
+.footer__item{
+  display: inline-block;
+  padding-right: 18px;
+}
+
+.footer__item:last-of-type {
+  padding-right: 0;
+}
+
+@media screen and (max-width: 767px){
+  .footer__item{
+    display: block;
+    padding-right: 0;
+    padding-bottom: 32px;
+  }
+  .footer__item:last-of-type {
+    padding-bottom: 48px;
+  }
+}

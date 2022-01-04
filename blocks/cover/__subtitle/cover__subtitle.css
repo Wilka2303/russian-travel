@@ -1,8 +1,4 @@
-@font-face {
-  font-family: Inter;
-  src: url(../../../fonts/Inter/Inter-Regular.woff) format('woff');
-  font-weight: normal;
-}
+
 .cover__subtitle {
   font-family: Inter;
 font-style: normal;
@@ -18,13 +14,9 @@ margin:0;
 
 @media screen and (max-width: 767px) {
   .cover__subtitle{
-    font-family: Inter;
-    font-style: normal;
-    font-weight: normal;
     font-size: 14px;
     line-height: 16px;
     /* or 114% */
-    text-align: center;
     max-width: 288px;
 
   }

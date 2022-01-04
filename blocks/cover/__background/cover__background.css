@@ -19,7 +19,7 @@
   top: 0;
   right: 0;
   bottom: 0;
-  background: #000;
+  background: #2A2C2F;
   opacity: 0.3;
   z-index: -1;
   transition: opacity 2s;
@@ -30,16 +30,23 @@
   opacity: 0.8;
 }
 
-@media screen and (max-width: 1267px) {
+@media screen and (max-width: 1279px) {
   .cover__background{
   min-height: 640px;
   width: 100%;
   }
 }
 
+@media screen and (max-width: 1023px) {
+  .cover__background{
+  min-height: 480px;
+  width: 100%;
+  }
+}
+
 @media screen and (max-width: 767px) {
   .cover__background{
-    min-height: auto;
-    height: 200px;
+    min-height: 200px;
+    width: 100%;
   }
 }
