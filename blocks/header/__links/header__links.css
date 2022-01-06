@@ -5,7 +5,7 @@
 }
 
 @media screen and (max-width: 767px) {
-  .header__links{
+  .header__links {
     padding-top: 14px;
     width: calc(49px + 19px);
   }
