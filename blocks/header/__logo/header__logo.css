@@ -7,18 +7,10 @@
   background-repeat: no-repeat;
 }
 
-@media screen and (max-width: 1023px) {
-  .header__logo {
-    left: 24px;
-}
-}
-
 @media (max-width: 767px) {
   .header__logo {
     min-width: 142px;
     min-height: 42px;
-    left: 16px;
-    right: 16px;
     max-width: 142px;
     max-height: 42px;
   }

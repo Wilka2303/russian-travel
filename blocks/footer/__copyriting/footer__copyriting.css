@@ -1,14 +1,8 @@
-@font-face {
-  font-family: Inter;
-  src: url(../../../fonts/Inter/Inter-Regular.woff) format('woff');
-  font-weight: normal;
-
-}
 .footer__copyriting {
   display: inline;
   color: #FFF;
   margin:0;
-  font-family: Inter;
+  font-family: Inter, Arial, Helvetica, sans-serif;
   font-style: normal;
   font-weight: normal;
   font-size: 14px;

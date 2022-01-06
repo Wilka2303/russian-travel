@@ -1,18 +1,12 @@
 .header__links {
   display: inline-block;
-  width: calc(32px + 32px + 18px);
+  width: calc(33px + 33px + 18px);
   padding-top: calc(46px - 28px);
 }
 
-@media screen and (max-width: 1023px){
-  .header__links {
-
-  }
-}
-
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 767px) {
   .header__links{
     padding-top: 14px;
-    width: calc(48px + 18px);
+    width: calc(49px + 19px);
   }
 }
